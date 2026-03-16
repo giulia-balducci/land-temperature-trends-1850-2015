@@ -6,7 +6,7 @@ Exploratory data analysis and regression modelling of global land surface temper
 
 ## Overview
 
-This project analyses how land surface temperatures have changed over 165 years, using monthly records from 1850 to 2015. The focus is on **land-only data** — ocean temperatures were deliberately excluded to isolate terrestrial warming trends, which are known to be stronger than global averages.
+This project analyses how land surface temperatures have changed over 165 years, using monthly records from 1850 to 2015. The focus is on **land-only data** — ocean temperatures were deliberately excluded to isolate terrestrial warming trends.
 
 The analysis covers:
 - Data cleaning and quality assessment
@@ -20,7 +20,7 @@ The analysis covers:
 
 - **Average land temperature increased at +0.085 °C per decade** over the 165-year period
 - **Minimum temperatures are warming faster (+0.114 °C/decade) than maximum temperatures (+0.075 °C/decade)** — nights are warming more rapidly than days
-- This asymmetric pattern is a well-documented signature of the greenhouse effect: greenhouse gases trap outgoing longwave radiation, which is particularly relevant at night when there is no incoming solar radiation
+- This asymmetric pattern is linked to the greenhouse effect: at night, with no incoming solar radiation, the Earth loses heat by emitting infrared radiation outward. Greenhouse gases trap part of this outgoing radiation and redirect it back to the surface — so nights cool down less than they used to. During the day, incoming solar radiation dominates the energy balance, making the greenhouse effect comparatively less visible in the maximum temperature signal.
 - A 2nd-degree polynomial regression consistently outperforms linear regression (R² up to 0.86 vs 0.80), suggesting that warming has been accelerating in recent decades
 
 ---
@@ -47,7 +47,7 @@ The analysis covers:
 
 ### Why was pre-1850 data excluded?
 
-Records before 1850 show significantly higher noise and irregular fluctuations, likely reflecting sparse observational coverage and non-standardised instrumentation. From 1850 onward, records become more consistent and systematic, coinciding with the beginning of modern instrumental climatology.
+Records before 1850 show significantly higher noise and irregular fluctuations, likely reflecting sparse observational coverage and non-standardised instrumentation. From 1850 onward, records become more consistent, likely reflecting the growth of monitoring networks and improvements in measurement standardisation.
 
 ### Smoothing
 
