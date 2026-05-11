@@ -6,7 +6,7 @@ Exploratory data analysis and regression modelling of global land surface temper
 
 ## Overview
 
-This project analyses how land surface temperatures have changed over 165 years, using monthly records from 1850 to 2015. The focus is on **land-only data** — ocean temperatures were deliberately excluded to isolate terrestrial warming trends.
+This project analyses how land surface temperatures have changed over 165 years, using monthly records from 1850 to 2015. The focus is on **land-only data**. Ocean temperatures were deliberately excluded to isolate terrestrial warming trends.
 
 The analysis covers:
 - Data cleaning and quality assessment
@@ -19,7 +19,7 @@ The analysis covers:
 ## Key Findings
 
 - **Average land temperature increased at +0.085 °C per decade** over the 165-year period
-- **Minimum temperatures are warming faster (+0.114 °C/decade) than maximum temperatures (+0.075 °C/decade)** — nights are warming more rapidly than days
+- **Minimum temperatures are warming faster (+0.114 °C/decade) than maximum temperatures (+0.075 °C/decade)**. Nights are warming more rapidly than days
 - This asymmetric pattern is linked to the greenhouse effect: at night, with no incoming solar radiation, the Earth loses heat by emitting infrared radiation outward. Greenhouse gases trap part of this outgoing radiation and redirect it back to the surface — so nights cool down less than they used to. During the day, incoming solar radiation dominates the energy balance, making the greenhouse effect comparatively less visible in the maximum temperature signal.
 - A 2nd-degree polynomial regression consistently outperforms linear regression (R² up to 0.86 vs 0.80), suggesting that warming has been accelerating in recent decades
 
@@ -107,6 +107,6 @@ pip install pandas numpy matplotlib seaborn
 
 ## About
 
-This is a self-directed project — I chose this dataset because I actually care about climate change, not because it was assigned. As a PhD chemist pivoting into data science, I wanted to work on something real and build intuition with time-series data along the way.
+This is a self-directed project: I chose this dataset because I actually care about climate change, not because it was assigned. I wanted to work on something real and build intuition with time-series data along the way.
 
 More of my work on [LinkedIn](https://www.linkedin.com/in/giuliabalducci).
